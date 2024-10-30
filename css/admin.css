@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/**
+ * Tools
+ */
+@font-face {
+  font-family: "ignico";
+  src: url("../fonts/ignico.eot");
+  src: url("../fonts/ignico.eot?#iefix") format("eot"), url("../fonts/ignico.woff2") format("woff2"), url("../fonts/ignico.woff") format("woff"), url("../fonts/ignico.ttf") format("truetype"), url("../fonts/ignico.svg#ignico") format("svg"); }
+
+.icon-butterfly:before, .dashicons-ignico:before {
+  font-family: "ignico";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: none; }
+
+.icon-butterfly:before, .dashicons-ignico:before {
+  content: ""; }
+
+/**
+ * Components
+ */
+.dashicons-ignico::before {
+  font-size: 20px; }
+
+/**
+ * Payout
+ */
+#ignico_payout_sync_statuses {
+  float: right;
+  margin-top: 1px; }
